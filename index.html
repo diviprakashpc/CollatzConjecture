@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="index.css" rel="stylesheet" />
+  <title>Collatz Conjecture</title>
+</head>
+
+<body>
+  <h1>Collatz Conjecture</h1>
+  <div id="work-container">
+    <form id="form-container">
+      <input type="number" placeholder="Enter initial Value" id="initialValue" value="1" />
+      <input type="number" placeholder="Enter speed" id="speed" value="1000" />
+      <div class="button">
+        <button type="button" name="start">Start</button>
+        <button type="button" name="resume">Resume</button>
+        <button type="button" name="stop">Stop</button>
+      </div>
+    </form>
+
+    <div id="bar-container">
+      <div class="bar"></div>
+      <div id="value">0</div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -10,3 +10,6 @@ The series can be constructed by applying these two rules again and again. The c
 
 So despite the quintillion of positive examples on the conjecture’s side, we need logical proof to demonstrate the authenticity of the Collatz conjecture. And this logical proof is something that we don’t have yet!
 
+
+Here is the demonstration 👇👇👇👇
+https://diviprakashpc.github.io/CollatzConjecture/
